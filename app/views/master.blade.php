@@ -8,7 +8,7 @@
 	<body>
 		@yield('menu')
 		@yield('body')
-		
+
 		<!--Start Footer-->
 		@yield('footer')
 	</body>

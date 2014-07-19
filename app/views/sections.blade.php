@@ -19,12 +19,15 @@
 	<link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57x57-precomposed.png">
 	
 	<!-- Google Web Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    {{HTML::style('http://fonts.googleapis.com/css?family=Oswald:300')}}
+
 	
 	<!-- Bootstrap CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	{{ HTML::style('css/bootstrap.min.css')}}
+
 	<!-- Custom CSS -->
-	<link href="css/style.css" rel="stylesheet" />
+	{{ HTML::style('css/style.css')}}
+
 @show
 
 @section('menu')
@@ -617,9 +620,10 @@
 	</footer>
 	<!--END: Footer--> 
 
-	<!-- Scripts --> 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
-	<script src="js/bootstrap.min.js"></script> 
-	<script src="js/custom.js"></script>
+	<!-- Scripts -->
+	{{HTML::script('http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')}}
+	{{HTML::script('js/bootstrap.min.js')}}
+	{{HTML::script('js/custom.js')}}
+	
 @show
 
